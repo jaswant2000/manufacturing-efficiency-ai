@@ -1,0 +1,109 @@
+{
+  "best_model": "Random Forest",
+  "results": {
+    "Logistic Regression": {
+      "accuracy": 0.8814,
+      "macro_precision": 0.7661723793509462,
+      "macro_recall": 0.899201567378297,
+      "macro_f1": 0.8186082095061288,
+      "weighted_f1": 0.888702950245184,
+      "per_class": {
+        "High": {
+          "precision": 0.6775320139697323,
+          "recall": 0.9540983606557377,
+          "f1-score": 0.7923757658270932,
+          "support": 610.0
+        },
+        "Medium": {
+          "precision": 0.6391449303785056,
+          "recall": 0.8596676338696914,
+          "f1-score": 0.7331833520809898,
+          "support": 3791.0
+        },
+        "Low": {
+          "precision": 0.9818401937046005,
+          "recall": 0.8838387076094621,
+          "f1-score": 0.9302655106103033,
+          "support": 15599.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          582,
+          28,
+          0
+        ],
+        [
+          277,
+          3259,
+          255
+        ],
+        [
+          0,
+          1812,
+          13787
+        ]
+      ],
+      "seconds": 3.41
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "per_class": {
+        "High": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 610.0
+        },
+        "Medium": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3791.0
+        },
+        "Low": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15599.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          610,
+          0,
+          0
+        ],
+        [
+          0,
+          3791,
+          0
+        ],
+        [
+          0,
+          0,
+          15599
+        ]
+      ],
+      "seconds": 7.61
+    }
+  },
+  "split": "Chronological 80% train / latest 20% test",
+  "features": [
+    "Machine_ID",
+    "Operation_Mode",
+    "Temperature_C",
+    "Vibration_Hz",
+    "Power_Consumption_kW",
+    "Network_Latency_ms",
+    "Packet_Loss_%",
+    "Quality_Control_Defect_Rate_%",
+    "Production_Speed_units_per_hr",
+    "Predictive_Maintenance_Score",
+    "Error_Rate_%"
+  ]
+}

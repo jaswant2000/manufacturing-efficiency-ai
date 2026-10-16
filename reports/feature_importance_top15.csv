@@ -1,0 +1,16 @@
+,importance
+num__Error_Rate_%,0.5604591023293615
+num__Production_Speed_units_per_hr,0.3680028925435137
+num__Predictive_Maintenance_Score,0.008404052470053859
+num__Packet_Loss_%,0.008283149793572923
+num__Vibration_Hz,0.008239417930875811
+num__Power_Consumption_kW,0.008204744418099387
+num__Quality_Control_Defect_Rate_%,0.008186425118156818
+num__Temperature_C,0.008114061275065426
+num__Network_Latency_ms,0.00797638769793135
+cat__Operation_Mode_Active,0.0008944371634428653
+cat__Operation_Mode_Idle,0.000757445880356749
+cat__Operation_Mode_Maintenance,0.000673897206461183
+cat__Machine_ID_48,0.00030082724739031785
+cat__Machine_ID_39,0.0002943715190390845
+cat__Machine_ID_26,0.0002899444746223299
